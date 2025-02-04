@@ -1,0 +1,13 @@
+[package]
+name = "minigrep"
+version = "0.1.0"
+authors = ["Lakshay Manglani <lakshaymanglani2212@gmail.com>"]
+edition = "2021"
+description = "CLI tool to search text pattern in a file."
+readme = "README.md"
+repository = "https://github.com/LakshayManglani/minigrep"
+license = "MIT"
+keywords = ["grep", "search", "pattern", "regex"]
+categories = ["command-line-utilities", "text-processing"]
+
+[dependencies]
