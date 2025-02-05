@@ -10,8 +10,8 @@ fn main() {
         process::exit(0);
     });
 
-    println!("> Searching for {}", config.query);
-    println!("> In file {}", config.file_path);
+    println!("> Searching for `{}`", config.query);
+    println!("> In file `{}`", config.file_path);
 
     if let Err(e) = minigrep::run(config) {
         println!("Error running program: {}", e);
